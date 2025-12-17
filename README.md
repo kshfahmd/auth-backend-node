@@ -2,9 +2,13 @@
 
 
 
-This is a beginner-friendly backend project built using Node.js and Express.js.
+This is a beginner-friendly backend project built using Node.js and Express.js.  
 
-The project demonstrates basic user authentication concepts such as user registration, login, password hashing, and API testing using Postman.
+It demonstrates basic user authentication concepts such as user registration, login, password hashing, and API testing using Postman.
+
+
+
+---
 
 
 
@@ -22,6 +26,10 @@ The project demonstrates basic user authentication concepts such as user registr
 
 
 
+---
+
+
+
 \## Tech Stack
 
 \- Node.js
@@ -36,17 +44,21 @@ The project demonstrates basic user authentication concepts such as user registr
 
 
 
+---
+
+
+
 \## API Endpoints
 
 
 
 \### Register User
 
-POST /api/auth/register
+\*\*POST\*\* `/api/auth/register`
 
 
 
-Request Body:
+```json
 
 {
 
@@ -55,16 +67,22 @@ Request Body:
 &nbsp; "password": "123456"
 
 }
+
+```
+
+
+
+---
 
 
 
 \### Login User
 
-POST /api/auth/login
+\*\*POST\*\* `/api/auth/login`
 
 
 
-Request Body:
+```json
 
 {
 
@@ -74,21 +92,57 @@ Request Body:
 
 }
 
+```
+
+
+
+---
+
 
 
 \## How to Run Locally
 
-1\. Clone the repository
 
-2\. Install dependencies:
 
-&nbsp;  npm install
+\### 1. Clone the repository
 
-3\. Start the server:
+```bash
 
-&nbsp;  node index.js
+git clone https://github.com/kshfahmd/auth-backend-node.git
 
-4\. Test APIs using Postman
+cd auth-backend-node
+
+```
+
+
+
+\### 2. Install dependencies
+
+```bash
+
+npm install
+
+```
+
+
+
+\### 3. Start the server
+
+```bash
+
+node index.js
+
+```
+
+
+
+\### 4. Test APIs
+
+Use \*\*Postman\*\* to test the endpoints listed above.
+
+
+
+---
 
 
 
