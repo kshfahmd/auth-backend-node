@@ -61,11 +61,8 @@ It demonstrates basic user authentication concepts such as user registration, lo
 ```json
 
 {
-
-&nbsp; "username": "testuser",
-
-&nbsp; "password": "123456"
-
+  "username": "testuser",
+  "password": "123456"
 }
 
 ```
@@ -85,11 +82,8 @@ It demonstrates basic user authentication concepts such as user registration, lo
 ```json
 
 {
-
-&nbsp; "username": "testuser",
-
-&nbsp; "password": "123456"
-
+  "username": "testuser",
+  "password": "123456"
 }
 
 ```
